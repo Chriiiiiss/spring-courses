@@ -18,7 +18,7 @@
 
 [gradle-et-maven-outils-de-build-java.md](../introduction-aux-bases-de-java/gradle-et-maven-outils-de-build-java.md "mention")
 
-[tests-unitaires-avec-junit.md](../introduction-aux-bases-de-java/tests-unitaires-avec-junit.md "mention")
+[tests-unitaires-avec-junit.md](../appendicium/tests-unitaires-avec-junit.md "mention")
 
 **INTRODUCTION AU FRAMEWORK SPRING**
 

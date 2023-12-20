@@ -12,7 +12,6 @@
 * [POO: Classes, Objets, Héritage, Polymorphisme](introduction-aux-bases-de-java/poo-classes-objets-heritage-polymorphisme.md)
 * [Maîtrise de la Gestion des Exceptions](introduction-aux-bases-de-java/maitrise-de-la-gestion-des-exceptions.md)
 * [Gradle et Maven : Outils de Build Java](introduction-aux-bases-de-java/gradle-et-maven-outils-de-build-java.md)
-* [Tests Unitaires avec JUnit](introduction-aux-bases-de-java/tests-unitaires-avec-junit.md)
 
 ## 🍃 Introduction au Framework Spring
 
@@ -38,4 +37,5 @@
 
 ## 📖 Appendicium
 
-* [Additum](appendicium/additum.md)
+* [MVC](appendicium/mvc.md)
+* [Tests Unitaires avec JUnit](appendicium/tests-unitaires-avec-junit.md)
