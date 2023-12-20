@@ -4,8 +4,7 @@
 
 * [Introduction](README.md)
 * [Syllabus](introduction/syllabus.md)
-* [La création de Java](introduction/la-creation-de-java.md)
-* [Pourquoi Java et où l'utiliser ?](introduction/pourquoi-java-et-ou-lutiliser.md)
+* [La création de Java et ses utilisations](introduction/la-creation-de-java-et-ses-utilisations.md)
 
 ## 👾 Introduction aux Bases de Java
 
