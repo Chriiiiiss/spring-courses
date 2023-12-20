@@ -9,7 +9,7 @@
 
 ## 👾 Introduction aux Bases de Java
 
-* [Fondamentaux : Variables, Boucles, et Conditions](introduction-aux-bases-de-java/fondamentaux-variables-boucles-et-conditions.md)
+* [Fondamentaux : Variables, Conditions et Boucles](introduction-aux-bases-de-java/fondamentaux-variables-conditions-et-boucles.md)
 * [POO: Classes, Objets, Héritage, Polymorphisme](introduction-aux-bases-de-java/poo-classes-objets-heritage-polymorphisme.md)
 * [Maîtrise de la Gestion des Exceptions](introduction-aux-bases-de-java/maitrise-de-la-gestion-des-exceptions.md)
 * [Gradle et Maven : Outils de Build Java](introduction-aux-bases-de-java/gradle-et-maven-outils-de-build-java.md)
