@@ -36,6 +36,6 @@
 
 * [Exercice](exercice/exercice.md)
 
-## 📖 Additum
+## 📖 Appendicium
 
-* [Additum](additum/additum.md)
+* [Additum](appendicium/additum.md)
