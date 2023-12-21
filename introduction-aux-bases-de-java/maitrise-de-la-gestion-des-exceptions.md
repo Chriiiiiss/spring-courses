@@ -6,4 +6,3 @@ description: >-
 
 # Maîtrise de la Gestion des Exceptions
 
-Bla-bla Exceptions

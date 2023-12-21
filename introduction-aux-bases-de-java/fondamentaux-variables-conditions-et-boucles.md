@@ -6,6 +6,12 @@ description: >-
 
 # Fondamentaux : Variables, Conditions et Boucles
 
+### **Comment démarrer un projet en java ?**&#x20;
+
+`javac MonSuperProjet.java`
+
+`java MonSuperProjet`
+
 ### **Le Typage :**
 
 Java utilise un typage statique[^1].&#x20;
