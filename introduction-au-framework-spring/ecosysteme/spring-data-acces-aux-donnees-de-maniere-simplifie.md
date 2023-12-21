@@ -23,7 +23,7 @@ Le cœur de Spring Data est le concept de repositories. Un repository en Spring 
 
 Pour créer un repository, vous définissez simplement une interface qui étend l'une des interfaces de repository fournies par Spring Data, comme `CrudRepository` ou `JpaRepository`
 
-```
+```java
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import com.example.model.YourEntity;
@@ -32,7 +32,6 @@ import com.example.model.YourEntity;
 public interface YourEntityRepository extends CrudRepository<YourEntity, Long> {
     // Définition des méthodes spécifiques si nécessaire
 }
-
 ```
 
 Dans cet exemple, `YourEntityRepository` étend `CrudRepository`, offrant des opérations CRUD pour l'entité `YourEntity`.
@@ -62,7 +61,7 @@ Pour commencer avec Spring Data JPA, vous devez configurer votre projet Spring p
 
 Exemple de dépendance Maven :&#x20;
 
-```
+```java
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -75,7 +74,7 @@ Les entités en JPA représentent des tables de base de données. Chaque entité
 
 Exemple d'entité :
 
-```
+```java
 import javax.persistence.*;
 
 @Entity
@@ -95,7 +94,7 @@ Avec Spring Data JPA, vous créez des interfaces de repository pour gérer les o
 
 Exemple de repository :
 
-```
+```java
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import com.example.model.User;

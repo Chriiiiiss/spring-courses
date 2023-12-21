@@ -11,7 +11,7 @@ Spring Security est un cadre puissant et hautement personnalisable pour la gesti
 
 Configurer Spring Security commence par l'ajout des dépendances nécessaires dans votre projet. Vous devez ensuite configurer un `WebSecurityConfigurerAdapter` pour définir les règles de sécurité. Voici un exemple de base :&#x20;
 
-```
+```java
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
