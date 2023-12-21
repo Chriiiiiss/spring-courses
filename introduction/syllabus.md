@@ -12,7 +12,7 @@
 
 [fondamentaux-variables-conditions-et-boucles.md](../introduction-aux-bases-de-java/fondamentaux-variables-conditions-et-boucles.md "mention")
 
-[poo-classes-objets-heritage-encapsulation-polymorphisme.md](../introduction-aux-bases-de-java/poo-classes-objets-heritage-encapsulation-polymorphisme.md "mention")
+[poo-classes-objets-heritage-polymorphisme.md](../introduction-aux-bases-de-java/poo-classes-objets-heritage-polymorphisme.md "mention")
 
 [maitrise-de-la-gestion-des-exceptions.md](../introduction-aux-bases-de-java/maitrise-de-la-gestion-des-exceptions.md "mention")
 

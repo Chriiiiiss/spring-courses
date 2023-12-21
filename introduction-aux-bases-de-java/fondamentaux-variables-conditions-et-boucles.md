@@ -8,6 +8,7 @@ description: >-
 
 ### **Comment démarrer un projet en java ?**&#x20;
 
+\
 `javac MonSuperProjet.java`
 
 `java MonSuperProjet`
