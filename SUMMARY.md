@@ -26,9 +26,9 @@
   * [Spring Boot : Simplifier la configuration et le Déploiement](introduction-au-framework-spring/ecosysteme/spring-boot-simplifier-la-configuration-et-le-deploiement/README.md)
     * [Auto-Configuration avec Spring Boot](introduction-au-framework-spring/ecosysteme/spring-boot-simplifier-la-configuration-et-le-deploiement/auto-configuration-avec-spring-boot.md)
     * [Application Context](introduction-au-framework-spring/ecosysteme/spring-boot-simplifier-la-configuration-et-le-deploiement/application-context.md)
-  * [Spring Security : Gestion Auth/Autorisation](introduction-au-framework-spring/ecosysteme/spring-security-gestion-auth-autorisation.md)
   * [Spring Data : Accès aux données de manière simplifié](introduction-au-framework-spring/ecosysteme/spring-data-acces-aux-donnees-de-maniere-simplifie.md)
   * [Spring MVC : Développement d’applications Web](introduction-au-framework-spring/ecosysteme/spring-mvc-developpement-dapplications-web.md)
+  * [Spring Security : Gestion Auth/Autorisation](introduction-au-framework-spring/ecosysteme/spring-security-gestion-auth-autorisation.md)
   * [Et bien plus...](introduction-au-framework-spring/ecosysteme/et-bien-plus....md)
 
 ## 💻 EXERCICE
