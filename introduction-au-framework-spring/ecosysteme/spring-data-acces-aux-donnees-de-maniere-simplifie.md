@@ -23,6 +23,7 @@ Le cœur de Spring Data est le concept de repositories. Un repository en Spring 
 
 Pour créer un repository, vous définissez simplement une interface qui étend l'une des interfaces de repository fournies par Spring Data, comme `CrudRepository` ou `JpaRepository`
 
+{% code title="" %}
 ```java
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
@@ -33,6 +34,7 @@ public interface YourEntityRepository extends CrudRepository<YourEntity, Long> {
     // Définition des méthodes spécifiques si nécessaire
 }
 ```
+{% endcode %}
 
 Dans cet exemple, `YourEntityRepository` étend `CrudRepository`, offrant des opérations CRUD pour l'entité `YourEntity`.
 

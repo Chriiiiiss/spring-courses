@@ -10,10 +10,12 @@ Dans le développement, les erreurs sont inévitables. Même avec l'utilisation 
 
 Ce système utilise des objets pour représenter les erreurs, ainsi qu'une combinaison de trois mots-clés essentiels `- try,` `catch,` et `finally` - qui aident à détecter, gérer, et traiter ces erreurs. En plus, il fournit les mécanismes pour lever (`throw`) ou propager (`throws`) ces exceptions, permettant une gestion plus fine des erreurs rencontrées.
 
-> Il ne faut pas confondre `error` et `exception`&#x20;
->
-> * Ici on parle d'`Exception`. Cela désigne la classe que les applications doivent essayer de gérer, divisée en deux catégories principales : les exceptions vérifiées (`Exception`) et les exceptions non vérifiées (`RuntimeException`).
-> * `Error` indique des problèmes graves qui ne devraient normalement pas être traités par une application (comme `OutOfMemoryError`).
+{% hint style="warning" %}
+Il ne faut pas confondre `error` et `exception`&#x20;
+
+* Ici on parle d'`Exception`. Cela désigne la classe que les applications doivent essayer de gérer, divisée en deux catégories principales : les exceptions vérifiées (`Exception`) et les exceptions non vérifiées (`RuntimeException`).
+* `Error` indique des problèmes graves qui ne devraient normalement pas être traités par une application (comme `OutOfMemoryError`)
+{% endhint %}
 
 <details>
 
