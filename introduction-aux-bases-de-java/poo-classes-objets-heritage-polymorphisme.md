@@ -14,7 +14,7 @@ En Java, la POO[^1] est centrale et comprend plusieurs éléments clés tels que
 
 #### Un objet :&#x20;
 
-C'est une idée, un concept, un objet qu'on va mettre en relation avec d'autre objets.\`
+C'est une idée, un concept, un objet qu'on va mettre en relation avec d'autre objets.
 
 #### Une classe  :&#x20;
 
@@ -51,7 +51,7 @@ maVoiture.accelerer();  // Affiche : "La voiture accélère."
 
 ### Hériage
 
-L'héritage permet à une classe de hériter des caractéristiques (propriétés et méthodes) d'une autre classe.&#x20;
+L'héritage permet à une classe d'hériter des caractéristiques (propriétés et méthodes) d'une autre classe.&#x20;
 
 La classe qui hérite est appelée sous-classe ou classe dérivée, et la classe dont les caractéristiques sont héritées est appelée superclasse ou classe de base.
 
@@ -87,7 +87,7 @@ monChat.miauler(); // Miaou !
 
 ### Encapsulation
 
-L'encapsulation est une manière de définir une classe de telle sorte que ses attributs ne puisse pas être directement manipulés de l'exterieur de la classe mais seulement indirectement par l'intermédiaire des méthodes. Cela permet de contrôler la manière dont les données sont lues ou modifiées.
+L'encapsulation est une manière de définir une classe de telle sorte que ses attributs ne puissent pas être directement manipulés de l'exterieur de la classe mais seulement indirectement par l'intermédiaire des méthodes. Cela permet de contrôler la manière dont les données sont lues ou modifiées.
 
 <details>
 
