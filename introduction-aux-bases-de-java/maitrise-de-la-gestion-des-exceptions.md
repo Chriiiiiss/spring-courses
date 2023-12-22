@@ -21,7 +21,7 @@ Il ne faut pas confondre `error` et `exception`&#x20;
 
 <summary>Exemple d'exceptions</summary>
 
-Une division par 0 renvoie forcement une erreur
+Une **division par 0** ou l'ouverture d'un **fichier inexistant** renvoie forcement une erreur
 
 **Erreur :**&#x20;
 
@@ -41,6 +41,11 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 ```
 
 </details>
+
+Les erreurs les plus communes que l'on peut retrouver sont :&#x20;
+
+* <mark style="color:blue;">ArithmeticException</mark> : Quelque chose s'est passé pendant une opération d'algorithmie par exemple une division par 0&#x20;
+* <mark style="color:blue;">NullPointerException :</mark>&#x20;
 
 ***
 
@@ -165,5 +170,11 @@ java.lang.ArithmeticException: / by zero
 ```
 
 </details>
+
+### Personnalisation des Exceptions
+
+### Propagation des Exceptions
+
+
 
 ***
