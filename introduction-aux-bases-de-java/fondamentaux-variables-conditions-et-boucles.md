@@ -100,7 +100,7 @@ Les conditions sont plutôt simples, on retrouve `if`, `else if`, `else`, switch
 <summary>Exemple de condition</summary>
 
 ```java
-if ((condition && autre condition) != (troisième condition)){
+if ((condition && autre condition) !== (troisième condition)){
    //Reste du code
 } else {
    //Reste du code
