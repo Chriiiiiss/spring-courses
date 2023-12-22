@@ -8,10 +8,7 @@ description: >-
 
 ### **Comment démarrer un projet en java ?**&#x20;
 
-\
-`javac MonSuperProjet.java`
-
-`java MonSuperProjet`
+Sur son projet on peut lancer la commande `javac MonSuperProjet.java` afin de compiler son projet . Elle crée un fichier executable au même niveau que votre projet et pour le lancer il ne reste plus qu'a rentrer `java MonSuperProjet`
 
 ### **Le Typage :**
 

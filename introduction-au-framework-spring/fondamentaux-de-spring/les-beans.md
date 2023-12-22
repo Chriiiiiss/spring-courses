@@ -34,41 +34,6 @@ public class MaClasseService {
 // @Component indique au conteneur Spring de créer un Bean pour cette classe.
 ```
 
-Override
-
-```java
-class Animal {
-    void faireBruit() {
-        System.out.println("Certains bruits");
-    }
-}
-
-class Chien extends Animal {
-    @Override
-    void faireBruit() {
-        System.out.println("Aboie");
-    }
-}
-
-class Chat extends Animal {
-    @Override
-    void faireBruit() {
-        System.out.println("Miaule");
-    }
-}
-
-public class TestPolymorphisme {
-    public static void main(String[] args) {
-        Animal a;
-        a = new Chien();
-        a.faireBruit();  // Affiche "Aboie"
-
-        a = new Chat();
-        a.faireBruit();  // Affiche "Miaule"
-    }
-}
-```
-
 </details>
 
 ***
