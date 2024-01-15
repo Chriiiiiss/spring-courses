@@ -20,36 +20,38 @@ C'est une idée, un concept, un objet qu'on va mettre en relation avec d'autre o
 
 C'est un modèle ou un plan à partir duquel les objets sont créés. Une classe définit les états (attributs, champs) et les comportements (méthodes, fonctions) que ses objets auront.
 
-Les programmes java ont toujours au moins une classe et une méthode `main()`.
+> La class qui lancera l'application java doit forcément posséder une méthode `main()`
 
 <details>
 
 <summary>Exemple de classe et objet</summary>
 
+{% code title="car.java" %}
 ```java
-public class Voiture {
+public class Car {
 //Propriétés
-    String marque;
-    int vitesseMax;
+    String brand;
+    int maxSpeed;
 
 //Méthode
-    void accelerer() {
-        System.out.println("La voiture accélère.");
+    void vroom() {
+        System.out.println("Car is going brrr");
     }
 }
 
 // Création d'un objet de la classe Voiture
-Voiture maVoiture = new Voiture();
-maVoiture.marque = "Peugeot";
-maVoiture.vitesseMax = 180;
-maVoiture.accelerer();  // Affiche : "La voiture accélère."
+Car myCar = new Car();
+myCar.brand = "Peugeot";
+myCar.maxSpeed = 180;
+maVoiture.vroom();  // Affiche : "Car is going brrr"
 ```
+{% endcode %}
 
 </details>
 
 ***
 
-### Hériage
+### Héritage
 
 L'héritage permet à une classe d'hériter des caractéristiques (propriétés et méthodes) d'une autre classe.&#x20;
 

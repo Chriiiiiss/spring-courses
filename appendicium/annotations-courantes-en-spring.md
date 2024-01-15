@@ -9,5 +9,5 @@ description: >-
 
 Bla-bla&#x20;
 
-<pre class="language-java"><code class="lang-java"><strong>@Autowired, @Component, @Service et @Repository
+<pre class="language-java"><code class="lang-java"><strong>@Autowired, @Component, @Service, @Repository @Value
 </strong></code></pre>

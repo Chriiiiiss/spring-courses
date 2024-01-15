@@ -14,3 +14,13 @@ description: Truc le plus basique du monde
 4. **Test de l'API :** Utiliser Postman ou un outil similaire pour tester les endpoints REST.
 
 **Résultat attendu :** Une API simple mais fonctionnelle qui permet d'ajouter, de lister, et de supprimer des tâches.
+
+
+
+
+
+
+
+
+
+MERGE AVEC CE QU'A FAIT MIARY
