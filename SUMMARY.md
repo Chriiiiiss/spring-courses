@@ -18,10 +18,16 @@
   * [IoC: Concept et Impact](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/ioc-concept-et-impact.md)
   * [Configuration XML vs. Java](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/configuration-xml-vs.-java.md)
   * [Les Beans](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/les-beans.md)
-* [Écosystème](introduction-au-framework-spring/ecosysteme/README.md)
-  * [Spring Data : Accès aux données de manière simplifié](introduction-au-framework-spring/ecosysteme/spring-data-acces-aux-donnees-de-maniere-simplifie.md)
-  * [Spring MVC : Développement d’applications Web](introduction-au-framework-spring/ecosysteme/spring-mvc-developpement-dapplications-web.md)
-  * [Spring Security : Gestion Auth/Autorisation](introduction-au-framework-spring/ecosysteme/spring-security-gestion-auth-autorisation.md)
+
+## 💡 Setup
+* [Création du projet](setup/creation-du-projet-spring-boot.md)
+* [Structuration du projet et configuration de la Base de Données](setup/structuration-configuration.md)
+* [Entité](setup/creation-entite-task.md)
+* [Repository](setup/definition-repository-taskrepository.md)
+* [Service](setup/implementation-service-taskservice.md)
+* [Contrôleur](setup/creation-controleur-taskcontroller.md)
+* [Lancer l'application](setup/execution-de-lapplication.md)
+
 
 ## 💻 EXERCICE
 
