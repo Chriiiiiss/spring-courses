@@ -26,12 +26,14 @@ Les annotations telles que `@Component`, `@Service`, `@Repository`, et `@Control
 Component
 
 ```java
-@Component
-public class MaClasseService {
+@Repository
+public class UserRepository {
     // Définition de la classe
 }
 
-// @Component indique au conteneur Spring de créer un Bean pour cette classe.
+// @Repository indique au conteneur Spring de créer un Bean nommé repository 
+// pour cette classe. Il aura ses propres paramètres et ne fera pas planté 
+// le compilateur.
 ```
 
 </details>
@@ -41,10 +43,6 @@ public class MaClasseService {
 ### Cycle de vie des beans :
 
 Un bean est créé, soit par une déclaration dans un fichier de configuration, soit par une annotation. Spring injecte des objets dans le bean si nécessaire (par exemple, via `@Autowired`). Lorsque le conteneur Spring est fermé, les beans sont détruits.
-
-***
-
-### Injection de dépendances&#x20;
 
 
 
