@@ -4,8 +4,16 @@ description: Bienvenue à notre cours sur le Framework Spring !
 
 # Introduction
 
-C'est l'un des outils les plus puissants et les plus populaires pour le développement d'applications Java modernes.&#x20;
+Ce cours vise à vous fournir une compréhension fondamentale de Spring, un outil moderne pour le développement d'applications Java.&#x20;
 
-Au cours de cette session, nous allons explorer le Framework Spring, en commençant par une introduction aux fondamentaux de Java et en progressant vers des concepts plus avancés du Framework Spring. Nous conclurons avec la réalisation d'un mini-projet utilisant ce framework.&#x20;
+Java est un langage de programmation orienté objet, qui est à la fois compilé (en bytecode), interprété (par la JVM), et recompilé au moment de l'exécution (compilation JIT). 
 
-Que vous soyez un développeur débutant en Java ou que vous cherchiez à approfondir vos connaissances en Spring, ce cours est conçu pour améliorer vos compétences et vous donner les outils nécessaires pour développer des applications robustes et efficaces.
+# Objectifs
+
+À la fin de ce cours, vous serez en mesure de :
+
+* Comprendre les fondamentaux de Java
+* Vous initier au Framework Spring
+* Créer une application de base utilisant Spring Boot
+
+
