@@ -26,7 +26,7 @@ Aujourd'hui Il y a 2 gros **IDE** qui sortent du lot pour faire du java:
 
 Un IDE assez gourmand et lourd, mais qui possède un excellent ecosystem, beaucoup de plugin, [demande beaucoup de configuration](#user-content-fn-3)[^3] mais une fois pris en mains, c'est excellent et très pratique !
 
-Il faudra télécharger la [<mark style="color:purple;">**\[Suite Jetbrain**</mark>](https://www.jetbrains.com/fr-fr/idea/download/?section=mac)<mark style="color:purple;">**]**</mark> puis configurer le JDK une fois dans l'application
+Il faudra télécharger la [<mark style="color:purple;">**\[Suite Je tbrain**</mark>](https://www.jetbrains.com/fr-fr/idea/download/?section=mac)<mark style="color:purple;">**]**</mark> puis configurer le JDK une fois dans l'application
 
 </details>
 
@@ -207,11 +207,11 @@ for (String fruit : fruits) {
 
 [^1]: Java Runtime Environment
 
-[^2]: Pour les riches ou les étudiants. (ce qui est assez paradoxal)
+[^2]: Pour les riches ou les étudiants, ce qui est assez paradoxal.
 
 [^3]: Les VIM users vont adorés !
 
-[^4]: Pour ceux qui n'aime pas Jetbrains
+[^4]: Pour ceux qui n'aiment pas Jetbrains.
 
 [^5]: Le type de chaque variable doit être déclaré explicitement. (merci)
 

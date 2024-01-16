@@ -51,7 +51,6 @@ Nous retrouverons ici un fichier `POM.xml` à la racine
 **Caractéristiques clés :**
 
 * Structure et format de projet standardisé.
-* Gestion plus simple des dépendances et versions.
 * Possède un large [écosystème de plugins](https://maven.apache.org/plugins/).
 
 {% code title="pom.xml" %}
@@ -93,7 +92,7 @@ Après avoir fait le choix entre Maven et Gradle, il ne vous reste plus qu'a exp
 
 [^2]: Language principalement utiliser pour faire du dev <mark style="color:green;">Android</mark>
 
-[^3]: il est aussi possible de le donner entre machine :exploding\_head:
+[^3]: il est aussi possible de se donner le cache entre machine :exploding\_head:
 
 [^4]: Project Object Model
 

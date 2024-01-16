@@ -68,6 +68,10 @@ public class Animal {
     void manger() {
         System.out.println(nom + " mange.");
     }
+    
+    void boire() {
+        System.out.println(nom + " boit.");
+    }
 }
 
 public class Chat extends Animal {
@@ -80,6 +84,7 @@ public class Chat extends Animal {
 Chat monChat = new Chat();
 monChat.nom = "Moka";
 monChat.manger();  // Moka mange.
+monChat.boire();   // Moka boit.
 monChat.miauler(); // Miaou !
 ```
 
@@ -115,6 +120,8 @@ public class CompteBancaire {
         solde -= montant;
     }
 }
+
+monCompte = new CompteBancaire;
 ```
 
 </details>
@@ -139,25 +146,33 @@ class Animal {
 class Chien extends Animal {
     @Override
     void faireBruit() {
-        System.out.println("Aboie");
+        System.out.println("Waf");
     }
 }
 
 class Chat extends Animal {
     @Override
     void faireBruit() {
-        System.out.println("Miaule");
+        System.out.println("Miaou");
     }
 }
+
+class Oie extends Animal {}
 
 public class TestPolymorphisme {
     public static void main(String[] args) {
         Animal a;
+        Animal b;
+        Animal c;
+        
         a = new Chien();
-        a.faireBruit();  // Affiche "Aboie"
+        a.faireBruit();  // Affiche "Waf"
 
         a = new Chat();
-        a.faireBruit();  // Affiche "Miaule"
+        a.faireBruit();  // Affiche "Miaou"
+        
+        c = new Oie();
+        c.faireBruit();  // Affiche "Certains bruits"
     }
 }
 ```

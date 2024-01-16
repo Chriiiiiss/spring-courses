@@ -41,7 +41,7 @@ public class ReservationRoomDao {
     }
 
     public void save(ReservationRoom reservationRoom) {
-        // Logique pour sauver la réservation dans la base de données
+        // Logique pour save la réservation dans la base de données
     }
 }
 ```
@@ -58,11 +58,10 @@ public class ReservationRoomService {
         this.reservationRoomDao = new ReservationRoomDao();
 
     public void reserve(ReservationRoom reservationRoom) {
-        // Logique supplémentaire avant de sauver la réservation
+        // Logique supplémentaire avant de save la réservation
         reservationRoomDao.save(reservationRoom);
     }
 }
-
 ```
 {% endcode %}
 
@@ -209,7 +208,7 @@ Avant Spring Boot, la configuration nécessitait un fichier XML bien fournit pou
 
     <bean id="reservationRoomDao" class="com.example.ReservationRoomDao">
         <property name="databaseUrl" value="${db.url}"/>
-        <!-- Configuration supplémentaire si nécessaire -->
+        <!-- Autre configuration  -->
     </bean>
 
     <bean id="reservationRoomService" class="com.example.ReservationRoomService">
@@ -234,7 +233,7 @@ Spring Boot favorise une approche de configuration basée sur les annotations et
 * Spring Boot  vient utiliser intensivement les annotations pour la configuration, réduisant/éliminant le besoin de fichiers XML.
 
 {% hint style="info" %}
-Des annotations comme `@SpringBootApplication`, `@Service`, `@Repository`, `@Autowired`,  `@Value`
+Des annotations comme `@SpringBootApplication`, `@Service`, `@Repository`, `@Autowired`,  `@Value, etc...`
 {% endhint %}
 
 <details>

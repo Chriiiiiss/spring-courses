@@ -32,7 +32,7 @@ public class UserRepository {
 }
 
 // @Repository indique au conteneur Spring de créer un Bean nommé repository 
-// pour cette classe. Il aura ses propres paramètres et ne fera pas planté 
+// pour cette classe. Il aura ses propres paramètres et ne fera pas planter
 // le compilateur.
 ```
 

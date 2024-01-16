@@ -3,12 +3,11 @@
 ## 🌳 Introduction
 
 * [Introduction](README.md)
-* [Syllabus](introduction/syllabus.md)
 * [La création de Java et ses utilisations](introduction/la-creation-de-java-et-ses-utilisations.md)
 
 ## 👾 Introduction aux Bases de Java
 
-* [Fondamentaux : Bases, Variables, Conditions et Boucles](introduction-aux-bases-de-java/fondamentaux-variables-conditions-et-boucles.md)
+* [Fondamentaux : Bases, Variables, Conditions et Boucles](introduction-aux-bases-de-java/fondamentaux-bases-variables-conditions-et-boucles.md)
 * [POO: Classes, Objets, Héritage, Encapsulation, Polymorphisme](introduction-aux-bases-de-java/poo-classes-objets-heritage-polymorphisme.md)
 * [Gradle vs Maven : Outils de Build Java](introduction-aux-bases-de-java/gradle-vs-maven-outils-de-build-java.md)
 
@@ -18,8 +17,14 @@
   * [IoC: Concept et Impact](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/ioc-concept-et-impact.md)
   * [Configuration XML vs. Java](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/configuration-xml-vs.-java.md)
   * [Les Beans](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/les-beans.md)
+* [Stepper](introduction-au-framework-spring/stepper/README.md)
+  * [Initialize](introduction-au-framework-spring/stepper/initialize.md)
+  * [Configuration h2 db](introduction-au-framework-spring/stepper/configuration-h2-db.md)
+  * [Controller](introduction-au-framework-spring/stepper/controller/README.md)
+    * [Model](introduction-au-framework-spring/stepper/controller/model.md)
 
 ## 💡 Setup
+
 * [Création du projet](setup/creation-du-projet-spring-boot.md)
 * [Structuration du projet et configuration de la Base de Données](setup/structuration-configuration.md)
 * [Entité](setup/creation-entite-task.md)
@@ -27,7 +32,6 @@
 * [Service](setup/implementation-service-taskservice.md)
 * [Contrôleur](setup/creation-controleur-taskcontroller.md)
 * [Lancer l'application](setup/execution-de-lapplication.md)
-
 
 ## 💻 EXERCICE
 
@@ -40,3 +44,4 @@
 * [Tests Unitaires avec JUnit](appendicium/tests-unitaires-avec-junit.md)
 * [Maîtrise de la Gestion des Exceptions](appendicium/maitrise-de-la-gestion-des-exceptions.md)
 * [Annotations Courantes en Spring](appendicium/annotations-courantes-en-spring.md)
+* [Écosystème Spring](appendicium/ecosysteme-spring.md)
