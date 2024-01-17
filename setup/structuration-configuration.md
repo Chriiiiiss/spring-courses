@@ -1,6 +1,6 @@
 # Structuration du projet
 
-Avant de commencer à écrire du code, il faut structurer l'application en différents packages. Voici une structure de packages typique pour une application Spring Boot :
+Avant de commencer à écrire du code, il faut structurer l'application en différents packages en suivant le modèle MVC [mvc.md](../../appendicium/mvc.md "mention") (Modèle-Vue-Contrôleur). Voici une structure de packages typique pour une application Spring Boot :
 
 *   #### Package `com.api.crud.model`
 
