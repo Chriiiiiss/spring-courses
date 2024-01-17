@@ -4,7 +4,7 @@ L'entité `Task` représentera les tâches à gérer. Elle aura les attributs su
 
 * `id` (Long) : Identifiant unique de la tâche.
 * `title` (String) : Titre de la tâche.
-* `completed`(String) : Statut de la tâche ("oui" : 1, "non":0).
+* `completed`(String) : Statut de la tâche.
 
 Dans le package `com.api.crud.model`, créez une classe `Task`.
 

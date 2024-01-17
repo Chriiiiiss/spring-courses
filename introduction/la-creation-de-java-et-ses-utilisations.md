@@ -8,7 +8,7 @@ Le langage a été conçu avec plusieurs objectifs, notamment la nécessité d'u
 
 **Java dans le monde de la Programmation aujourd'hui ?**
 
-Java est largement adopté pour le développement d'applications dans divers domaines, incluant le développement pour Android et le Web, les solutions back-end, les applications distribuées, les applications de bureau, les systèmes embarqués, les solutions d'entreprise, les applications scientifiques, les jeux, les logiciels de trading et les solutions Big Data.
+Aujourd'hui, Java est un pilier dans le développement d'applications variées, y compris pour Android, le Web, les applications back-end, et plus encore. Sa polyvalence et sa robustesse continuent de le rendre pertinent dans les domaines des solutions d'entreprise, des applications scientifiques, des jeux, et des technologies Big Data, etc.
 
 <figure><img src="../.gitbook/assets/Java_applications.jpg" alt=""><figcaption><p>Utilisations du Java</p></figcaption></figure>
 

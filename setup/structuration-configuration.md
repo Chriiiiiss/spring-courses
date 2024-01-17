@@ -37,3 +37,7 @@ spring.jpa.hibernate.ddl-auto=update
 #H2 Configuration
 spring.h2.console.enabled=true
 ```
+
+Concernant la console H2, une fois l’application démarrée, vous pouvez aller sur l’URL `http://localhost:9000/h2-console`. Une fenêtre de login s’ouvre, et il est nécessaire d’indiquer l’URL Jdbc (qui change à chaque démarrage de l’application).
+
+Récupérez l’URL JDBC (en l'occurrence jdbc:h2:mem:b59feadd-5612-45fe-bd1c-3b62db66ea8a'), saisissez dans le formulaire, puis `Connect`. Le username par défaut est bien “sa”, et le password par défaut est vide.

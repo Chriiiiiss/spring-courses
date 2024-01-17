@@ -6,7 +6,7 @@ description: Bienvenue à notre cours sur le Framework Spring !
 
 Ce cours vise à vous fournir une compréhension fondamentale de Spring, un outil moderne pour le développement d'applications Java.&#x20;
 
-Java est un langage de programmation orienté objet, qui est à la fois compilé (en bytecode), interprété (par la JVM), et recompilé au moment de l'exécution (compilation JIT). 
+Java est un langage de programmation orienté objet, qui est à la fois compilé (en bytecode), interprété (par la Java Virtual Machine), et recompilé au moment de l'exécution (compilation Just-In-Time). 
 
 # Objectifs
 
