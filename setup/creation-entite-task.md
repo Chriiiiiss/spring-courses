@@ -12,6 +12,12 @@ Ajoutez les attributs mentionnés avec les annotations appropriées (`@Entity`, 
 
 {% code title="model/Task.java" %}
 ```java
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
 @Entity
 public class Task {
     @Id

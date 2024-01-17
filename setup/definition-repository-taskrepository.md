@@ -6,6 +6,10 @@ TaskRepository est une interface qui étend JpaRepository pour gérer automatiqu
 
 {% code title="repository/TaskRepository.java" %}
 ```java
+import com.api.crud.model.Task;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
 @Repository
 public interface TaskRepository extends JpaRepository<Task, Long> {
 }

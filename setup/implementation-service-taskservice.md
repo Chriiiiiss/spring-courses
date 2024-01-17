@@ -4,6 +4,11 @@ Dans le package `com.api.crud.service`, créez une classe `TaskService`. Injecte
 
 {% code title="service/TaskService.java" %}
 ```java
+import com.api.crud.model.Task;
+import com.api.crud.repository.TaskRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 @Service
 public class TaskService {
     private final TaskRepository taskRepository;
