@@ -50,22 +50,6 @@ Les vues dans Spring MVC sont responsables de la présentation des données au c
 
 Cette vue affiche le message fourni par le contrôleur.Avantages de Spring MVC.
 
-#### Passage de Données entre le Contrôleur et la Vue
-
-Spring MVC utilise le modèle `Model` pour passer des données de contrôleurs à vues. Par exemple, pour passer un message de `MyController` à la vue :
-
-```java
-@GetMapping("/hello")
-public String sayHello(Model model) {
-    model.addAttribute("message", "Hello from Spring MVC");
-    return "hello";
-}
-```
-
-#### Gestion des Formulaires et Validation des Données
-
-Spring MVC facilite la gestion des formulaires et la validation des données. Vous pouvez lier des objets de domaine aux formulaires et utiliser des annotations de validation pour garantir que les données reçues sont correctes.
-
 #### Avantages du Spring MVC
 
 * **Flexibilité** : Spring MVC est hautement configurable et s'adapte à divers besoins de développement Web.
