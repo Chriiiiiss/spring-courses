@@ -8,9 +8,14 @@ Injectez (`@Autowired`) `TaskService`.
 
 {% code title="controller/TaskController.java" %}
 ```java
+package com.api.crud.controller;
+
+import com.api.crud.model.Task;
 import com.api.crud.service.TaskService;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,7 +35,6 @@ public class TaskController {
         return taskService.getTasks();
     }
 
-    // Autres endpoints...
 }
 ```
 {% endcode %}

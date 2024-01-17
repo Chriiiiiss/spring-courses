@@ -13,6 +13,8 @@ Ajoutez les attributs mentionnés avec les annotations appropriées (`@Entity`, 
 {% code title="model/Task.java" %}
 ```java
 
+package com.api.crud.model;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -28,7 +30,22 @@ public class Task {
 	
     private boolean completed;
 
-    // Getters et setters
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public boolean isCompleted() {
+		return completed;
+	}
+
+	public void setCompleted(boolean completed) {
+		this.completed = completed;
+	}
+
 }
 ```
 {% endcode %}
