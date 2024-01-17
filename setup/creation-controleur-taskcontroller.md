@@ -6,6 +6,7 @@ Utilisez les annotations `@RestController` et `@RequestMapping`.
 
 Injectez (`@Autowired`) `TaskService`.
 
+{% code title="controller/TaskController.java" %}
 ```java
 @RestController
 @RequestMapping("/tasks")
@@ -25,6 +26,7 @@ public class TaskController {
     // Autres endpoints...
 }
 ```
+{% endcode %}
 
 * **@RestController** : Indique que cette classe est un contrôleur Spring Boot qui gère les requêtes HTTP.
 * **@RequestMapping** : Définit l'URL de base pour toutes les requêtes traitées par ce contrôleur.

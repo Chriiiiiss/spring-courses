@@ -1,4 +1,4 @@
-# Création de l'entité
+# Entité
 
 L'entité `Task` représentera les tâches à gérer. Elle aura les attributs suivants :
 
@@ -10,6 +10,7 @@ Dans le package `com.api.crud.model`, créez une classe `Task`.
 
 Ajoutez les attributs mentionnés avec les annotations appropriées (`@Entity`, `@Id`, `@GeneratedValue`).
 
+{% code title="model/Task.java" %}
 ```java
 @Entity
 public class Task {
@@ -24,6 +25,7 @@ public class Task {
     // Getters et setters
 }
 ```
+{% endcode %}
 
 * **@Entity** : Indique que cette classe est une entité JPA.
 * **@Id** et **@GeneratedValue** : Identifient le champ `id` comme clé primaire et configurent la stratégie de génération de l'identifiant.

@@ -67,7 +67,7 @@ public class LittleClass {
 La méthode main est le point d'entrée de tout programme en Java. C'est par cette méthode que l'exécution du programme commence.&#x20;
 
 * <mark style="color:yellow;">**public**</mark> <mark style="color:yellow;">**:**</mark> Cela signifie que la méthode est accessible de partout. Dans le cas de la méthode `main` Java nécessite que la méthode soit `public` pour qu'elle puisse être appelée par le moteur d'exécution Java qui se trouve en dehors de la classe.
-* <mark style="color:yellow;">**static**</mark> <mark style="color:yellow;">**:**</mark> Une méthode statique appartient à la classe plutôt qu'à un objet spécifique de la classe. Cela veut dire qu'il n'y aura pas de [**dynamic binding**](../appendicium/dynamic-binding.md) et qu'elle ne pourra avoir accès qu'aux variables situées à l'intérieur de la classe.
+* <mark style="color:yellow;">**static**</mark> <mark style="color:yellow;">**:**</mark> Une méthode statique appartient à la classe plutôt qu'à un objet spécifique de la classe. Cela veut dire qu'il n'y aura pas de **dynamic binding** et qu'elle ne pourra avoir accès qu'aux variables situées à l'intérieur de la classe.
 * <mark style="color:yellow;">**void :**</mark> Cela veut signifier que la fonction ne retourne rien.
 * <mark style="color:yellow;">**String\[] args :**</mark> C'est le premier paramètre de la méthode main, il permet de récupérer ce qui a été donnée en argument lors de l'appel de la fonction sur le terminal sous la forme d'un tableau de String.&#x20;
 

@@ -45,7 +45,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 Les erreurs les plus communes que l'on peut retrouver sont :&#x20;
 
 * <mark style="color:blue;">ArithmeticException</mark> : Quelque chose s'est passé pendant une opération d'algorithmie par exemple une division par 0&#x20;
-* <mark style="color:blue;">NullPointerException :</mark>&#x20;
+* etc...
 
 ***
 
@@ -170,10 +170,6 @@ java.lang.ArithmeticException: / by zero
 ```
 
 </details>
-
-### Personnalisation des Exceptions
-
-### Propagation des Exceptions
 
 
 

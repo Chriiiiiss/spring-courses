@@ -14,14 +14,9 @@
 ## 🍃 Introduction au Framework Spring
 
 * [Avantages de Spring contre le Java Traditionnel](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/README.md)
-  * [IoC: Concept et Impact](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/ioc-concept-et-impact.md)
-  * [Configuration XML vs. Java](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/configuration-xml-vs.-java.md)
   * [Les Beans](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/les-beans.md)
-* [Stepper](introduction-au-framework-spring/stepper/README.md)
-  * [Initialize](introduction-au-framework-spring/stepper/initialize.md)
-  * [Configuration h2 db](introduction-au-framework-spring/stepper/configuration-h2-db.md)
-  * [Controller](introduction-au-framework-spring/stepper/controller/README.md)
-    * [Model](introduction-au-framework-spring/stepper/controller/model.md)
+  * [Configuration XML vs. Java](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/configuration-xml-vs.-java.md)
+  * [IoC: Concept et Impact](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/ioc-concept-et-impact.md)
 
 ## 💡 Setup
 
@@ -35,13 +30,9 @@
 
 ## 💻 EXERCICE
 
-* [Exercice](exercice/exercice.md)
+* [La Quête du Café Perdu](exercice/exercice.md)
 
 ## 📖 Appendicium
 
-* [Dynamic Binding](appendicium/dynamic-binding.md)
-* [MVC](appendicium/mvc.md)
-* [Tests Unitaires avec JUnit](appendicium/tests-unitaires-avec-junit.md)
 * [Maîtrise de la Gestion des Exceptions](appendicium/maitrise-de-la-gestion-des-exceptions.md)
 * [Annotations Courantes en Spring](appendicium/annotations-courantes-en-spring.md)
-* [Écosystème Spring](appendicium/ecosysteme-spring.md)

@@ -1,26 +1,51 @@
----
-description: Truc le plus basique du monde
----
+# La Quête du Café Perdu
 
-# Exercice
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Java Joe le barista</p></figcaption></figure>
 
-**Objectif :** Développer une petite API REST pour gérer une liste de tâches (to-do list).
+Il va falloir aider un barista nommé Java Joe dans sa quête pour trouver la recette parfaite de café. Java Joe a plusieurs recettes, mais il a besoin d'un système pour les gérer efficacement.
 
-**Étapes :**
+{% code title="Requête à exécuter dans la console h2" %}
+```sql
+CREATE TABLE recette (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255),
+    description TEXT,
+    ingredients TEXT,
+    instructions TEXT
+);
+```
+{% endcode %}
 
-1. **Configuration initiale :** Utiliser Spring Initializr pour créer un projet Spring Boot avec les dépendances Web.
-2. **Création d'un modèle :** Définir une classe `Task` avec des attributs comme `id`, `title`, et `completed`.
-3. **Création d'un contrôleur :** Implémenter un contrôleur REST `TaskController` avec des méthodes pour ajouter, lister, et supprimer des tâches.
-4. **Test de l'API :** Utiliser Postman ou un outil similaire pour tester les endpoints REST.
+<details>
 
-**Résultat attendu :** Une API simple mais fonctionnelle qui permet d'ajouter, de lister, et de supprimer des tâches.
+<summary>Exemple d'une Interface de projection</summary>
 
+{% code title="interface/TaskProjection.java" %}
+```java
+public interface TaskProjection {
+    Long getId();
+    String getTitle();
+}
+```
+{% endcode %}
 
+La méthode dans le repository ressemblera donc à ça
 
+{% code title="repository/TaskRepository.java" %}
+```java
+List<TaskProjection> findAllProjectedBy();
+```
+{% endcode %}
 
+</details>
 
+### Voici la marche à suivre
 
-
-
-
-MERGE AVEC CE QU'A FAIT MIARY
+* Créer un model `Recette` avec des attributs : `nom`, `description`, `ingredients`, et `instructions`.
+* Exécuter la requête sql via la h2-console pour créer la table en base de donnée
+* Définir une interface de projection pour les données à récupérer. Cela va permettre de spécifier exactement quelles propriétés de l'entité `Recette` on veux extraire.
+* Créer une classe `RecetteRepository` qui va hériter de `JpaRepository<Recette, Long>`
+* Créer le service
+* Créer une classe `RecetteController`
+  * Il faudra au moins faire la méthode `GET` pour valider
+  * Mais les autres c'est que du bonus :smile:
