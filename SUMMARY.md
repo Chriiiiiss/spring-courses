@@ -17,11 +17,9 @@
   * [IoC: Concept et Impact](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/ioc-concept-et-impact.md)
   * [Configuration XML vs. Java](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/configuration-xml-vs.-java.md)
   * [Les Beans](introduction-au-framework-spring/avantages-de-spring-contre-le-java-traditionnel/les-beans.md)
-* [Stepper](introduction-au-framework-spring/stepper/README.md)
-  * [Initialize](introduction-au-framework-spring/stepper/initialize.md)
-  * [Configuration h2 db](introduction-au-framework-spring/stepper/configuration-h2-db.md)
-  * [Controller](introduction-au-framework-spring/stepper/controller/README.md)
-    * [Model](introduction-au-framework-spring/stepper/controller/model.md)
+* [Écosystème](introduction-au-framework-spring/ecosysteme/README.md)
+  * [Spring Data : Accès aux données de manière simplifié](introduction-au-framework-spring/ecosysteme/spring-data-acces-aux-donnees-de-maniere-simplifie.md)
+  * [Spring MVC : Développement d’applications Web](introduction-au-framework-spring/ecosysteme/spring-mvc-developpement-dapplications-web.md)
 
 ## 💡 Setup
 
