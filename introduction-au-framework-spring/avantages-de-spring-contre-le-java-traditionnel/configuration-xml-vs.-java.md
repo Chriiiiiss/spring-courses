@@ -6,18 +6,36 @@ description: >-
 
 # Configuration XML vs. Java
 
-## XML
+## Comparatif des deux méthodes de configuration
 
+{% tabs %}
+{% tab title="Sans Spring Boot (XML)" %}
+{% code title="applicationContext.xml" %}
 ```xml
-<beans>
-    <bean id="monBean" class="com.exemple.MonBean">
-        <!-- Configuration supplémentaire -->
-    </bean>
-</beans>
+<!-- Configuration de la source de données (MySQL) -->
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+    <property name="url" value="jdbc:mysql://localhost:3306/mydb" />
+    <property name="username" value="myuser" />
+    <property name="password" value="mypassword" />
+</bean>
+
+<!-- Configuration du gestionnaire de transactions -->
+<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <property name="dataSource" ref="dataSource" />
+</bean>
+
+<!-- Configuration du gestionnaire de vues (JSP) -->
+<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="/WEB-INF/views/" />
+    <property name="suffix" value=".jsp" />
+</bean>
+
 ```
+{% endcode %}
+{% endtab %}
 
-## Java
-
+{% tab title="Avec Spring Boot (Java)" %}
 ```java
 @Configuration
 public class AppConfig {
@@ -27,3 +45,23 @@ public class AppConfig {
     }
 }
 ```
+
+{% code title="application.properties" %}
+```properties
+# Configuration de la source de données
+jdbc.url=jdbc:mysql://localhost:3306/mydb
+jdbc.username=myuser
+jdbc.password=mypassword
+jdbc.driverClassName=com.mysql.cj.jdbc.Driver
+
+# Configuration du serveur Web (Tomcat, par exemple)
+server.port=8080
+
+# Configuration de la vue (si vous utilisez JSP, par exemple)
+view.prefix=/WEB-INF/views/
+view.suffix=.jsp
+
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}

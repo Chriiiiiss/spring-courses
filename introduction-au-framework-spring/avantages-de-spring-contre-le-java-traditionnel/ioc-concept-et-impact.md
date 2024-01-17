@@ -189,7 +189,7 @@ Un couplage faible est important car ça apporte une meilleurs fléxibilité, le
 
 Spring offre son lot de configuration externe pour avoir un peu la main sur nos beans[^3]
 
-On peut ainsi personnaliser complètement nos beans, spécifier quand [ils ont le droit de vivre et quand ils ont le droit de mourir](#user-content-fn-4)[^4].
+On peut ainsi personnaliser complètement nos beans, spécifier quand [ils ont le droit de vivre et quand ils ont le droit de mourir](#user-content-fn-4)[^4] et comment ils devraient vivre
 
 ### Avant Spring Boot
 
@@ -251,60 +251,10 @@ spring.datasource.password=${DATABASE_PASSWORD}
 
 </details>
 
-### Comparatif des deux méthodes de configuration
-
-{% tabs %}
-{% tab title="Sans Spring Boot" %}
-{% code title="applicationContext.xml" %}
-```xml
-<!-- Configuration de la source de données (MySQL) -->
-<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-    <property name="url" value="jdbc:mysql://localhost:3306/mydb" />
-    <property name="username" value="myuser" />
-    <property name="password" value="mypassword" />
-</bean>
-
-<!-- Configuration du gestionnaire de transactions -->
-<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-    <property name="dataSource" ref="dataSource" />
-</bean>
-
-<!-- Configuration du gestionnaire de vues (JSP) -->
-<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-    <property name="prefix" value="/WEB-INF/views/" />
-    <property name="suffix" value=".jsp" />
-</bean>
-
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="Avec Spring Boot" %}
-{% code title="application.properties" %}
-```properties
-# Configuration de la source de données
-jdbc.url=jdbc:mysql://localhost:3306/mydb
-jdbc.username=myuser
-jdbc.password=mypassword
-jdbc.driverClassName=com.mysql.cj.jdbc.Driver
-
-# Configuration du serveur Web (Tomcat, par exemple)
-server.port=8080
-
-# Configuration de la vue (si vous utilisez JSP, par exemple)
-view.prefix=/WEB-INF/views/
-view.suffix=.jsp
-
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-
 [^1]: algorithmes et mécanismes de traitement des données qui sont essentiels pour accomplir des fonctions spécifiques
 
 [^2]: &#x20;objet dont il a besoin pour fonctionner
 
 [^3]: composants (On verra l'appélation beans plus tard)
 
-[^4]: init-method="method" || destroy-method="method"
+[^4]: notamment avec -> init-method="method" || destroy-method="method"

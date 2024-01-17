@@ -1,40 +1,54 @@
-Pour tout projet Spring Boot, les étapes sont généralement comme suit :
+# Création du projet
+
+Pour tout projet Spring Boot, les étapes sont généralement :
 
 * Créer le projet (générer la structure minimale).
 * Structurer et configurer le projet.
 * Écrire le code.
 * Tester et déployer.
 
-Nous allons développer une requête Get API des tâches, en utilisant une base de données en mémoire (H2) avec Spring Boot en appliquants les concepts appris lors du cours.
+Nous allons développer une requête **GET** API des tâches, en utilisant une base de données en mémoire (H2) avec Spring Boot en appliquants les concepts appris lors du cours.
 
-# Création du projet
+## Création du projet
 
-## Prérequis
+### Prérequis
+
 Voici les outils nécessaires avant de créer le projet :
- 
+
 * Java Development Kit (JDK) installé : [https://www.oracle.com/fr/java/technologies/downloads](https://www.oracle.com/fr/java/technologies/downloads/#jdk21-windows)
 * Un IDE (Eclipse ou IntelliJ IDEA) : [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
-* Maven : [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
 
-## Génération de la structure minimale
-Utiliser [_**https://start.spring.io/**_](https://start.spring.io/) pour générer le projet.&#x20;
+### Génération de la structure minimale
+
+Utiliser [_**https://start.spring.io/**_](https://start.spring.io/) pour générer le projet.
 
 * Remplissez les champs : Nom (`crud`), Group (`com.api`), Artifact (`crud`).
 * Choisissez les dépendances Spring Web, Spring Data JPA, H2 Database.
-* Cliquez sur generate
+
+<div>
 
 <figure><img src=".gitbook/assets/creation_projet.png" alt=""><figcaption></figcaption></figure>
 
-**Structure du projet** :&#x20;
+ 
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-01-16 à 22.28.59.png" alt=""><figcaption><p>Ça devrait ressembler à ça !</p></figcaption></figure>
+
+</div>
+
+À présent cliquez sur <mark style="color:green;">**Generate**</mark> et on est good !
+
+### **Structure du projet** :
 
 Sous Eclipse, voici la structure du projet.
 
-<figure><img src=".gitbook/assets/structure.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/structure.png" alt=""><figcaption></figcaption></figure>
 
 Le contenu du fichier `pom.xml` devrait ressembler à ceci.
 
-```java
+{% code title="pom.xml" %}
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -86,3 +100,4 @@ Le contenu du fichier `pom.xml` devrait ressembler à ceci.
 
 </project>
 ```
+{% endcode %}
